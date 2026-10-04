@@ -51,7 +51,7 @@ Account Switcher for Reddit is an independent open-source project. It is not aff
 | Screenshot 4 | `store/screenshot-4-private-and-simple.png` |
 | Small promo tile (440×280) | `store/promo-small-440x280.png` |
 | Marquee promo tile (1400×560) | `store/promo-marquee-1400x560.png` |
-| Global promo video | Upload `promo/promo.mp4` to YouTube, paste the URL |
+| Global promo video | Upload `promo/promo.mp4` to YouTube with `promo/thumbnail.png` as the thumbnail, then paste the URL |
 
 All images are 24-bit PNG without alpha.
 
