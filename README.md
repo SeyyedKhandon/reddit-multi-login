@@ -2,11 +2,11 @@
 
 Reddit's mobile app lets you switch accounts in one tap. The website doesn't. **This Chrome extension adds the same experience to the web**: click your profile icon, pick another account, done.
 
-[![Watch the demo on YouTube](https://img.youtube.com/vi/DZk6LELndAc/maxresdefault.jpg)](https://www.youtube.com/watch?v=DZk6LELndAc)
+<a href="https://www.youtube.com/watch?v=DZk6LELndAc"><img src="https://img.youtube.com/vi/DZk6LELndAc/maxresdefault.jpg" alt="Watch the demo on YouTube" width="350"></a>
 
 ▶️ [Watch the 45-second demo on YouTube](https://www.youtube.com/watch?v=DZk6LELndAc)
 
-![Switch account menu](store/source/switch-menu.png)
+<img src="store/source/switch-menu.png" alt="Switch account menu" width="350">
 
 ## Why you'll like it
 - **Simple, like on mobile** – a "Switch account" list right next to the profile menu, plus a toolbar popup.
@@ -25,7 +25,7 @@ Reddit's mobile app lets you switch accounts in one tap. The website doesn't. **
 - **＋ Add another account** saves the current account and opens the login page. Log in with the other account and it is saved automatically.
 - The toolbar icon opens the same list and lets you forget accounts.
 
-![Add another account](store/source/add-account-login.png)
+<img src="store/source/add-account-login.png" alt="Add another account" width="350">
 
 ## How it works
 Reddit's web login is cookie based. Each saved account is a snapshot of the `reddit.com` cookies in `chrome.storage.local`. Switching clears the current cookies, restores the chosen snapshot and reloads Reddit tabs.
