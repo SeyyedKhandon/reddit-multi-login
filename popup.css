@@ -1,0 +1,14 @@
+body { width: 280px; margin: 0; padding: 12px; font: 14px/1.3 system-ui, sans-serif; color: #1c1c1c; background: #fff; }
+@media (prefers-color-scheme: dark) { body { color: #d7dadc; background: #1a1a1b; } li:hover { background: #272729; } }
+h1 { margin: 0 0 8px; font-size: 15px; }
+ul { margin: 0 0 8px; padding: 0; list-style: none; }
+li { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
+li:hover { background: #f6f7f8; }
+li.current { cursor: default; font-weight: 600; }
+.avatar { width: 24px; height: 24px; border-radius: 50%; background: #ff4500; object-fit: cover; }
+.name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.remove { border: 0; background: none; color: inherit; opacity: .5; cursor: pointer; font-size: 16px; }
+.remove:hover { opacity: 1; color: #ea0027; }
+#add { width: 100%; padding: 8px; border: 0; border-radius: 999px; background: #ff4500; color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+#empty { opacity: .7; font-size: 13px; }
+#error { color: #ea0027; font-size: 12px; }

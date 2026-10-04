@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF6A2B"/>
+      <stop offset="1" stop-color="#E03A00"/>
+    </linearGradient>
+    <clipPath id="tile"><rect width="128" height="128" rx="30"/></clipPath>
+    <!-- front account silhouette -->
+    <g id="front">
+      <circle cx="50" cy="50" r="19"/>
+      <path d="M12 140c0-32 15-52 38-52s38 20 38 52z"/>
+    </g>
+    <!-- cuts a gap around the front account so the two read as separate people -->
+    <mask id="gap">
+      <rect width="128" height="140" fill="#fff"/>
+      <use href="#front" fill="#000" stroke="#000" stroke-width="9" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#bg)"/>
+  <g clip-path="url(#tile)">
+    <g mask="url(#gap)" fill="#fff" opacity=".6">
+      <circle cx="86" cy="42" r="14"/>
+      <path d="M56 140c0-28 13-46 30-46s30 18 30 46z"/>
+    </g>
+    <use href="#front" fill="#fff"/>
+  </g>
+</svg>
