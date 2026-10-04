@@ -2,6 +2,10 @@
 
 Reddit's mobile app lets you switch accounts in one tap. The website doesn't. **This Chrome extension adds the same experience to the web**: click your profile icon, pick another account, done.
 
+[![Watch the demo on YouTube](https://img.youtube.com/vi/DZk6LELndAc/maxresdefault.jpg)](https://www.youtube.com/watch?v=DZk6LELndAc)
+
+▶️ [Watch the 45-second demo on YouTube](https://www.youtube.com/watch?v=DZk6LELndAc)
+
 ![Switch account menu](store/source/switch-menu.png)
 
 ## Why you'll like it
