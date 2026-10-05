@@ -1,6 +1,6 @@
 # Chrome Web Store listing – Account Switcher for Reddit
 
-Upload: `release/account-switcher-for-reddit-1.0.0.zip` (run `npm run package`).
+Upload: `release/account-switcher-for-reddit-1.0.1.zip` (run `npm run package`).
 
 ## Store listing → Product details
 

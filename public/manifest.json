@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Account Switcher for Reddit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Switch between multiple Reddit accounts right from the profile menu, like the mobile app. No tracking, open source.",
   "permissions": [
     "cookies",
