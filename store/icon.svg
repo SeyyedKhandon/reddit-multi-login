@@ -5,9 +5,13 @@
       <stop offset="1" stop-color="#E03A00"/>
     </linearGradient>
     <clipPath id="tile"><rect width="128" height="128" rx="30"/></clipPath>
-    <!-- front account silhouette -->
+    <!-- front account silhouette: a Reddit-style alien head on the shoulders -->
     <g id="front">
-      <circle cx="50" cy="50" r="19"/>
+      <ellipse cx="50" cy="52" rx="23" ry="18"/>
+      <circle cx="27" cy="47" r="5.5"/>
+      <circle cx="73" cy="47" r="5.5"/>
+      <circle cx="66" cy="22" r="4.5"/>
+      <path d="M50 35c1-9 7-13 14-13" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
       <path d="M12 140c0-32 15-52 38-52s38 20 38 52z"/>
     </g>
     <!-- cuts a gap around the front account so the two read as separate people -->
@@ -23,5 +27,9 @@
       <path d="M56 140c0-28 13-46 30-46s30 18 30 46z"/>
     </g>
     <use href="#front" fill="#fff"/>
+    <!-- alien face -->
+    <circle cx="41" cy="51" r="4.2" fill="#E03A00"/>
+    <circle cx="59" cy="51" r="4.2" fill="#E03A00"/>
+    <path d="M42 60q8 6 16 0" fill="none" stroke="#E03A00" stroke-width="2.6" stroke-linecap="round"/>
   </g>
 </svg>
