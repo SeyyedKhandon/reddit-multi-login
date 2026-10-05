@@ -3,21 +3,31 @@
   "name": "Account Switcher for Reddit",
   "version": "1.0.0",
   "description": "Switch between multiple Reddit accounts right from the profile menu, like the mobile app. No tracking, open source.",
-  "permissions": ["cookies", "storage"],
-  "host_permissions": ["https://*.reddit.com/*"],
+  "permissions": [
+    "cookies",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.reddit.com/*"
+  ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "type": "module"
   },
   "content_scripts": [
     {
-      "matches": ["https://*.reddit.com/*"],
-      "js": ["content.js"],
+      "matches": [
+        "https://*.reddit.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
       "run_at": "document_idle"
     }
   ],
   "action": {
     "default_title": "Account Switcher for Reddit",
-    "default_popup": "popup.html",
+    "default_popup": "popup/index.html",
     "default_icon": {
       "16": "icons/icon16.png",
       "48": "icons/icon48.png",
